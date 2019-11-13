@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cache</string>
+    <string name="example_cat_fact">Cucumbers look enough like a snake to cause a cat\'s instinctive fear of snakes to
+        kick in, causing it to panic and flee.
+    </string>
+    <string name="data">Data:</string>
+    <string name="retrieval_method">Retrieval method:</string>
+    <string name="local">Local</string>
+    <string name="clear">CLEAR</string>
+    <string name="get">GET</string>
+    <string name="app_description">This app serves as a simple demonstration of caching data retrieved over a network. When the
+        paw print button is pressed, it will attempt to retrieve the data locally from shared preferences; if it is not already stored
+        locally, the app attempts to make a network request to get your cat facts!
+    </string>
+</resources>
