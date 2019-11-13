@@ -1,0 +1,10 @@
+CREATE TABLE cache (result TEXT NOT NULL);
+
+selectAllFromCache:
+SELECT * FROM cache;
+
+insertIntoCache:
+INSERT INTO cache(result) VALUES ?;
+
+deleteAllFromCache:
+DELETE FROM cache;
